@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practise</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+            /* General styling */
+            body {
+                background-color: pink;
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+
+            header {
+                color: black;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            /* Styling the form */
+            table {
+                width: 100%;
+                max-width: 600px;
+                margin: auto;
+                border-spacing: 10px;
+            }
+
+            table td {
+                padding: 5px;
+            }
+
+            input[type="text"], select, textarea {
+                width: 100%;
+                padding: 8px;
+                box-sizing: border-box;
+            }
+
+            input[type="radio"], input[type="checkbox"] {
+                margin-right: 10px;
+            }
+
+            /* Styling buttons */
+            input[type="submit"], input[type="reset"] {
+                margin: 10px 5px;
+                padding: 10px 20px;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+
+            input[type="reset"] {
+                background-color: #f44336;
+            }
+
+            input[type="submit"]:hover, input[type="reset"]:hover {
+                background-color: #45a049;
+            }
+
+            input[type="reset"]:hover {
+                background-color: #e60000;
+            }
+
+            /* Styling field labels */
+            td:first-child {
+                text-align: right;
+                font-weight: bold;
+            }
+
+            /* Styling the footer */
+            footer {
+                text-align: center;
+                margin-top: 20px;
+                font-size: 12px;
+            }
+        
+        </style>
+    </head>
+    <body>
+        
+        
+        <header>
+            <h1> School of Computer Science and Engineering </h1><!-- comment -->
+            
+        </header>
+        
+        <main>
+            <table>
+                <tr>
+                    <td>
+                        <B>Full Name</B>
+                    </td>
+                    <td>
+                        <input type="text" name="fullname"
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <B>ID</B>
+                    </td>
+                    <td>
+                        <input type="text" name="id"
+                    </td>
+                </tr>
+                                <tr>
+                    <td>
+                        <B>Email</B>
+                    </td>
+                    <td>
+                        <input type="text" name="email"
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <B>Gender</B>
+            <input type="radio"name="Male"Value="male">Male
+            <input type="radio"name="Male"Value="female">Female
+            <br><!-- comment -->
+            <table>
+                <tr>
+                    <B>Field of study </B>
+                </tr>
+                <tr>
+                <select>
+                    <option value="IT">IT
+                    <option value="CS">CS
+                    <option value="DS">DS
+                </select>
+                </tr>
+            </table>
+            
+            <br><!-- comment -->
+            
+                        <table>
+                <td>
+                    <B>List of Subject </B>
+                </td>
+                <td>
+                    <input type ="checkbox" name="PDM">PDM<br>
+                    <input type ="checkbox" name="C">C<br>
+                    <input type ="checkbox" name="Cal">Calculus 1<br>
+                    <input type ="checkbox" name="DLD">DLD<br>
+                    <input type ="checkbox" name="Web">Web Application<br>
+                </td>
+            </table>
+            <br><br>
+            <b>Comments</b><br><br>
+            <textarea name ="comment" rows="10" cols="50" wrap></textarea><br><!-- comment -->
+            <input type ="submit"value="Submit">
+            <input type ="reset"value="Reset">
+            
+            
+            
+            
+            
+
+         
+        </main>
+        <footer>
+             <p>&copy; 2024 School of Computer Science and Engineering</p>
+            <p>Contact us: <a href="mailto:info@school.edu">info@school.edu</a></p>
+            <div class="social-icons">
+                <a href="#">Facebook</a> | 
+                <a href="#">Twitter</a> | 
+                <a href="#">LinkedIn</a>
+            </div>
+        </footer>
+    </body>
+</html>
